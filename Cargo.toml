@@ -12,9 +12,9 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.38"
-polars = {version = "0.42.0", features = ["lazy"]}
-rust_xlsxwriter = {version = "0.74.0", features = ["chrono", "polars"]}
-
+polars = {version = "0.43.0", features = ["lazy"]}
+#rust_xlsxwriter = {version = "0.74.0", features = ["chrono", "polars"]}
+rust_xlsxwriter = { git = "https://github.com/Dirreke/rust_xlsxwriter.git", branch = "bump_polars", features = ["chrono", "polars"] }
 
 [dev-dependencies]
 regex = "1.10.5"
