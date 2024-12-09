@@ -12,7 +12,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.38"
-polars = {version = "0.44.0", features = ["lazy"]}
+polars = {version = "0.45.0", features = ["lazy"]}
 #rust_xlsxwriter = {version = "0.79.0", features = ["chrono", "polars"]}
 rust_xlsxwriter = { git = "https://github.com/Dirreke/rust_xlsxwriter.git", branch = "bump_polars", features = ["chrono", "polars"] }
 
